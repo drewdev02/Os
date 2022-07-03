@@ -95,8 +95,18 @@ void sobrepasan(){
                 cont2++;
             }else if(matriz[2][j] > 9000){
                 cont3++;
+            }else if(matriz[3][j] > 9000){
+                cont4++;
+            }else if(matriz[4][j] > 9000) {
+                cont5++;
+            }else if(matriz[5][j] > 9000) {
+                cont6++;
+            }else if(matriz[6][j] > 9000) {
+                cont7++;
+            }else if(matriz[7][j] > 9000) {
+                cont8++;
+            }
         }
-    }
     cout << "las areas que sobrepasan 9000 son: " << cont << endl;
 }
 
